@@ -1,0 +1,31 @@
+.contenitore-header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(0, 94, 255);
+    justify-content:space-between
+}
+
+.logo{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.bottoni{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.log-in{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.contenitore-header2{
+    background-image: url("jumbo.png");
+    height: 5000px;
+    
+}
