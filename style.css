@@ -26,6 +26,7 @@
 
 .contenitore-header2{
     background-image: url("jumbo.png");
-    height: 5000px;
-    
+    text-align: center;
+    margin: auto;
 }
+
