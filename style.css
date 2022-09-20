@@ -2,15 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1400px;
+    
 }
-
+html{
+    font-family: 'Roboto', sans-serif;
+    
+}
 .contenitore-header{
     display: flex;
     flex-direction: row;
     height: 50px;
     background-color: rgb(42, 94, 232);
     justify-content:space-between
+   
 }
 
 .logo{
@@ -23,6 +27,7 @@
     width: 50%;
     margin: auto;
     text-align: center;
+    color: white;
 }
 
 .log-in{
@@ -33,23 +38,28 @@
 
 .contenitore-header2{
     background-image: url("jumbo.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 1400px;
-    height: 550px;
+    background-position-x:center ;
+    background-position-y:center ;
+    
+    
+
     
 }
 
-h1{
+.testo-header h1{
     color: white;
     padding-bottom: 50px;
+    font-weight: 900;
+    font-size: 50px;
 }
 
 .testo-header{
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    padding-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 100px;
     color: white;
     
 }
@@ -76,11 +86,133 @@ h1{
 .prima-sezione{
     display: flex;
     flex-direction: row;
+    margin-top: 5rem;
 }
+.primo-div-1{
+    flex: 2 0 0;
+    text-align: right;
+}
+
 
 .secondo-div-1{
     margin-top: 100px;
     text-align: left;
     margin-bottom: 100px;
     margin-right: 250px;
+    flex: 1 0 0;
+    
+    
 }
+.secondo-div-1 h2{
+    margin-right: 7rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.seconda-sezione{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  
+}
+
+.primo-div-2 h2{
+  
+    margin-bottom: 3rem;
+    font-weight: 900;
+    font-size: 40px;
+    margin-right: 5rem;
+   
+}
+
+.primo-div-2{
+    flex: 1 0 0;
+    text-align: left;
+    margin-left: 10rem;
+    margin-top: 7rem;
+    
+    
+}
+
+
+.secondo-div-2{
+    flex: 2 0 0;
+    text-align: center;
+   
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.terza-sezione{
+    display: flex;
+    flex-direction: row;
+    
+}
+.primo-div-3{
+    flex: 1 0 0;
+    text-align: center;
+    margin-left: 5rem;
+
+}
+.secondo-div-3{
+    flex: 1 0 0;
+    text-align: left;
+    margin-top: 5rem;
+   margin-left: 5rem;
+   margin-right: 16rem;
+}
+.secondo-div-3 h2{
+  
+    margin-bottom: 3rem;
+    font-weight: 900;
+    font-size: 40px;
+    margin-right: 5rem;
+}
+.quarta-sezione{
+    background-color: lightgray;
+    text-align: center;
+    margin: 0px;
+}
+
+.quarta-sezione {
+    
+    margin-bottom: 3rem;
+
+}
+
+.primo-div-4 h2{
+    margin-bottom: 3rem;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+.primo-div-4{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.terzo-div-4{
+    margin-top: 3rem;
+}
+
+.button3{
+    border-radius: 50px;
+    size: 30px;
+    padding: 10px;
+    background-color: rgb(71, 94, 197);
+    color: white;
+    margin-top: 3rem;
+}
+
+.terzo-div-4 h2{
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x:center ;
+}
+    
+    
+    
