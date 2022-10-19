@@ -86,6 +86,7 @@ html{
 .prima-sezione{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 5rem;
 }
 .primo-div-1{
@@ -113,7 +114,9 @@ html{
 .seconda-sezione{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: lightgray;
+    margin-top: -5px;
   
 }
 
@@ -149,6 +152,7 @@ html{
 .terza-sezione{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .primo-div-3{
@@ -180,6 +184,7 @@ html{
 .quarta-sezione {
     
     margin-bottom: 3rem;
+    margin-top: -5px;
 
 }
 
